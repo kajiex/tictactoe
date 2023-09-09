@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    height: 100vh;
+
+}
+
+.block{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #6b6a6b92;
+    min-width: 60vh;
+    max-width: 60vh;
+    min-height: 40vh;
+    max-height: 40vh;
+    border-radius: 50px;
+}
+button{
+    margin-top: 30px;
+    min-width: 26vh;
+    max-width: 26vh;
+    min-height: 6vh;
+    max-height: 6vh; 
+    background-color: rgba(61, 183, 165, 0.476);
+    transition: all 0.2s ease-in-out;
+    font-size: 5vh;
+    border: 1px solid;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: rgba(30, 89, 80, 0.747);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button:active{
+    color: rgba(171, 218, 211, 0.747);
+}
+h1{
+    position: absolute;
+    margin-top: 10%;
+    font-size: 7vh;
+
+}
+#github{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    font-size: 6vh;
+    font-weight: 400;
+}
+#github:hover{
+    color: #87f6dc;
+}
